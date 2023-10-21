@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Futura";
+  src: url('../fonts/futura.woff2') format('woff2');
+}
+:root{
+  --grey-color: #F3F3F3;
+  --orange-color: #FF764D;
+}
+body {
+  font-family: "Futura", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background-color: var(--grey-color);
+}
+.content {
+  max-width: 1600px;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.nav {
+  display: flex;
+  gap: 40px;
+}
+.highlighted{
+  color: var(--orange-color);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
